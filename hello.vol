@@ -1,0 +1,60 @@
+import std::io //--> this means from std::io 
+import std::string
+import std::thread
+import std::math 
+import std::graph
+import python::numpy as pnmpy
+import python::tensorflow
+import python::keras as pk
+import python::numba as nb
+//import java::..... too;
+// import Rust::std::... too;
+
+//using std::io::*; 
+//--------------------------------------->
+using io::print; //--this means which utilities using for 
+using io::scan;   //--Alias
+//-------------------------------------->
+
+using math::compute;
+using compute::trigon;
+using compute::matrix;
+using compute::complex
+using compute::calculus;
+
+let function(let x)->let:
+{
+    print("printing" + x)
+        x+1
+}
+string function(string y)->string:
+{
+    print("printing " + y)
+    y
+
+}
+func function(func a)->func:
+{
+    func a
+}
+
+
+
+final class Main{
+    Main(){print("Main method default constructor called")}
+// Not necessary : explicit Main() default constructor -_- manually.
+    public:
+        static main(String[]args){
+            let x{}, let y{}, let z; //init for x, y , z is default is zero(0);
+           // let keyword is for numeric value. 
+            string str1{}, str2{} ; // init for str1, str2 to become " "(space);
+            //string's  space is allocated into heap memory. 
+                print("Hello world\n");
+                scan(x, y , z);
+        }
+
+private:
+    let privateval{}; //Yet to instantiation.
+
+}
+
