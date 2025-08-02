@@ -1,0 +1,18 @@
+//data tracking language , database scripting language (dtsl)
+//---> Designed for Database <----> //
+data0 : character : A // 
+data1 : 10
+data2 : Integer :20 : mutable // Basically mutable variable.
+data7 : Integer : 30 : unlock // unlock the value 
+data3 : Integer : 40
+data4 : Integer :50
+data5 : array : Integer : 5 : {} //data5 is array type and 5 elements
+data6 : array : String : 6 : {} //data5 is array that is String type and has 6 elements.
+
+print(data0) // -->Print the character A ('A')
+data3 : 50 // Illeagal (not acceptable), not compiled , error message emit.
+print(data6) //-->print None String (not null string !!!)
+
+QUREY :  //example code 
+    WHERE IS 50? //--> data4 printed.
+    
